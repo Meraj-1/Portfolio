@@ -79,7 +79,7 @@ const Contact = () => {
         <div className="mt-8">
           <h3 className="text-2xl font-semibold mb-4 text-indigo-400">Connect with me on Instagram</h3>
           <a
-            href="https://instagram.com/YOUR_INSTAGRAM_HANDLE"
+            href="https://www.instagram.com/mohammad.meraj.ansari/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-indigo-500 hover:text-indigo-400 transition-colors duration-300"
