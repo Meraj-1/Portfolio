@@ -15,11 +15,11 @@ const Projects = () => {
         description: "An e-commerce platform with dynamic product listings.",
         link: "https://ecomerce-web-six.vercel.app/",
       },
-      {
-        name: "KITE",
-        description: "A dashboard clone featuring interactive data visualization.",
-        link: "https://dashboardclone.vercel.app/",
-      },
+      // {
+      //   name: "KITE",
+      //   description: "A dashboard clone featuring interactive data visualization.",
+      //   link: "https://dashboardclone.vercel.app/",
+      // },
     ];
   
     return (
