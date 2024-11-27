@@ -1,7 +1,7 @@
 const Projects = () => {
     const projects = [
       {
-        name: "ZERODHA_CLONE",
+        name: "ZERODHA",
         description: "A modern trading platform clone built with React.",
         link: "https://zerodhaclonefivne.vercel.app/",
       },
@@ -29,8 +29,8 @@ const Projects = () => {
       >
         {/* Background Glows */}
         <div className="absolute inset-0">
-          {/* <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-600 blur-[200px] opacity-50"></div>
-          <div className="absolute -bottom-16 right-10 w-96 h-96 bg-indigo-500 blur-[250px] opacity-40"></div> */}
+          <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-600 blur-[200px] opacity-50"></div>
+          <div className="absolute -bottom-16 right-10 w-96 h-96 bg-indigo-500 blur-[250px] opacity-40"></div>
         </div>
   
         <div className="relative  container mx-auto px-6">
@@ -47,7 +47,7 @@ const Projects = () => {
                 className="relative group bg-[#1E293B] border border-gray-700 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-[1.03] transform transition-transform duration-500"
               >
                 {/* Content Section */}
-                <h3 className="text-3xl font-bold text-gray-200 mb-4 group-hover:text-purple-400 transition-colors duration-300">
+                <h3 className="text-3xl font-bold text-center text-gray-200 mb-4 group-hover:text-purple-400 transition-colors duration-300">
                   {project.name}
                 </h3>
                 <p className="text-gray-300 text-lg font-light mb-6 tracking-wide">
@@ -63,9 +63,9 @@ const Projects = () => {
                 </a>
   
                 {/* Floating Project Index */}
-                {/* <div className="absolute top-6 left-6 bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-bold text-lg w-12 h-12 flex items-center justify-center rounded-full shadow-md">
+                <div className="absolute top-6 left-6 bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-bold text-lg w-12 h-12 flex items-center justify-center rounded-full shadow-md">
                   #{index + 1}
-                </div> */}
+                </div>
               </div>
             ))}
           </div>
