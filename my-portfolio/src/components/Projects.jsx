@@ -6,7 +6,7 @@ const Projects = () => {
         link: "https://zerodhaclonefivne.vercel.app/",
       },
       {
-        name: "REAL_ESTATE",
+        name: "REAL-ESTATE",
         description: "A sleek real estate website with responsive design.",
         link: "https://real-estate-henna-nine.vercel.app/",
       },
@@ -35,7 +35,7 @@ const Projects = () => {
   
         <div className="relative  container mx-auto px-6">
           {/* Heading */} 
-          <h2 className="text-6xl flex items-center justify-center font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 mb-16">
+          <h2 className="text-6xl animate-text flex items-center justify-center font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 mb-16">
             My Masterpiece Projects
           </h2>
   

@@ -3,11 +3,11 @@ import { assets } from "../assests/assests.js";
 const About = () => (
   <section
     id="about"
-    className="relative bg-gradient-to-b from-gray-900 to-gray-800 text-white py-20"
+    className="mt-10 relative bg-gradient-to-b from-gray-900 to-gray-800 text-white py-20"
   >
     {/* Background Effects */}
     <div className="absolute inset-0">
-      <div className="absolute -top-20 -left-20 w-72 h-72 bg-purple-600 blur-[200px] opacity-40"></div>
+      <div className="absolute-top-20 left-20 w-72 h-72 bg-purple-600 blur-[200px] opacity-40"></div>
       <div className="absolute bottom-0 right-20 w-96 h-96 bg-indigo-500 blur-[250px] opacity-40"></div>
     </div>
 
@@ -23,15 +23,15 @@ const About = () => (
 
       {/* About Content */}
       <div className="text-center md:text-left">
-        <h2 className="text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500">
+        <h2 className="text-5xl animate-text font-extrabold mb-6 text-transparent bg-clip-text ">
           About Me
         </h2>
-        <p className="text-lg leading-relaxed mb-6 text-gray-300">
+        <p className="text-lg  leading-relaxed mb-6 text-gray-300">
           Hi, I'm a passionate web developer with expertise in HTML, CSS,
-          JavaScript, React, and TailwindCSS. I specialize in creating
+          JavaScript, React, and TailwindCSS. & Bootstrap I specialize in creating
           responsive, interactive, and visually appealing user interfaces.
         </p>
-        <p className="text-lg leading-relaxed text-gray-400">
+        <p className="text-lg  leading-relaxed text-gray-400">
           My goal is to build web experiences that are both functional and
           aesthetic, while ensuring optimal performance and accessibility.
         </p>
@@ -46,11 +46,12 @@ const About = () => (
               { name: 'JavaScript', image: 'https://cdn.worldvectorlogo.com/logos/javascript-1.svg' },
               { name: 'React', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', animate: true },
               { name: 'TailwindCSS', image: 'https://www.svgrepo.com/show/374118/tailwind.svg' },
-              {name: 'Bootstrap', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'}
+              {name: 'Bootstrap', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'},
+              {name: 'GitHub', image: "https://cdn-icons-png.flaticon.com/512/25/25231.png"}
             ].map((skill, index) => (
               <li key={index} className="flex flex-col items-center gap-2 group">
                 <div
-                  className={`relative w-16 h-16 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full p-2 shadow-md transform hover:scale-110 transition-transform duration-300 ${
+                  className={`relative w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-900 rounded-full p-2 shadow-md transform hover:scale-110 transition-transform duration-300 ${
                     skill.name === 'React' ? 'rotateReact' : ''
                   }`}
                 >
